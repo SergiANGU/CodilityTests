@@ -29,9 +29,11 @@ class BinaryGapTest {
 
     @Test
     void globalTest(){
-        int number = 32;
+        int number = 328;
         int result = solution.solution(number);
-        Assertions.assertEquals(0, result);
+        Assertions.assertEquals(2, result);
     }
+    @Test
+    void gived
 
 }

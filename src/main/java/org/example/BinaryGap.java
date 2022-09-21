@@ -29,4 +29,21 @@ public class BinaryGap {
         return longest;
     }
 
+    public int calculateGap2(String binary){
+        int count = 0;
+        int longest = 0;
+        int iCounter = 0;
+        for (int i = 0; i < binary.length(); i++){
+            if (binary.toCharArray()[i] == '1') {
+                iCounter++;
+            }
+            if (binary.toCharArray()[i] == '0' && iCounter != 2){
+                count++;
+            }else{
+                longest = count;
+            }
+        }
+        return longest;
+    }
+
 }
