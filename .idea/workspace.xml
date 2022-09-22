@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f53e18e9-482a-48b8-8983-314262df7ce6" name="Changes" comment="BinaryGap v1.2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/FizzBuzzTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/BinaryGapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/BinaryGapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FizzBuzz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/FizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/FizzBuzzTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,14 +34,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -51,24 +50,8 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzTest.comprovateAllNumbersAreInTheList">
-    <configuration name="BinaryGapTest.globalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codilityTestes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.BinaryGapTest" />
-      <option name="METHOD_NAME" value="globalTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FizzBuzzTest.comprovateAllNumbersAreInTheList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FizzBuzzTest.comprovateNumber15TellBuzz">
+    <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codilityTestes" />
       <extension name="coverage">
         <pattern>
@@ -78,13 +61,12 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.FizzBuzzTest" />
-      <option name="METHOD_NAME" value="comprovateAllNumbersAreInTheList" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzTest.comprovateIfNumberOneIsInTheList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzTest.comprovateNumber15TellBuzz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codilityTestes" />
       <extension name="coverage">
         <pattern>
@@ -94,13 +76,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.FizzBuzzTest" />
-      <option name="METHOD_NAME" value="comprovateIfNumberOneIsInTheList" />
+      <option name="METHOD_NAME" value="comprovateNumber15TellBuzz" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzTest.createFizzBuzzClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzTest.comprovateNumber3TellFizz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codilityTestes" />
       <extension name="coverage">
         <pattern>
@@ -110,13 +92,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.FizzBuzzTest" />
-      <option name="METHOD_NAME" value="createFizzBuzzClass" />
+      <option name="METHOD_NAME" value="comprovateNumber3TellFizz" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzTest.generate1_100NumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzTest.comprovateNumber5TellBuzz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codilityTestes" />
       <extension name="coverage">
         <pattern>
@@ -126,7 +108,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.FizzBuzzTest" />
-      <option name="METHOD_NAME" value="generate1_100NumbersTest" />
+      <option name="METHOD_NAME" value="comprovateNumber5TellBuzz" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzBuzzTest.comprovateNumber6TellFizz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codilityTestes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="comprovateNumber6TellFizz" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FizzBuzzTest.comprovateAllNumbersAreInTheList" />
-        <item itemvalue="JUnit.FizzBuzzTest.comprovateIfNumberOneIsInTheList" />
-        <item itemvalue="JUnit.FizzBuzzTest.generate1_100NumbersTest" />
-        <item itemvalue="JUnit.FizzBuzzTest.createFizzBuzzClass" />
-        <item itemvalue="JUnit.BinaryGapTest.globalTest" />
+        <item itemvalue="JUnit.FizzBuzzTest.comprovateNumber15TellBuzz" />
+        <item itemvalue="JUnit.FizzBuzzTest.comprovateNumber5TellBuzz" />
+        <item itemvalue="JUnit.FizzBuzzTest.comprovateNumber6TellFizz" />
+        <item itemvalue="JUnit.FizzBuzzTest.comprovateNumber3TellFizz" />
+        <item itemvalue="JUnit.FizzBuzzTest" />
       </list>
     </recent_temporary>
   </component>

@@ -25,7 +25,7 @@ class FizzBuzzTest {
     void comprovateIfNumberOneIsInTheList(){
         FizzBuzz fizzBuzz = new FizzBuzz();
         List<Integer> numList = fizzBuzz.generate();
-        Assertions.assertEquals(numList.get(0), 1);
+        Assertions.assertEquals(numList.get(0), "1");
     }
 
     @Test
@@ -40,7 +40,34 @@ class FizzBuzzTest {
 
     @Test
     void comprovateNumber3TellFizz(){
-        Assertions.assertEquals("Fizz", 3);
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        int num = 3;
+        String representation = fizzBuzz.representationNumbers(num);
+        Assertions.assertEquals("Fizz", representation);
+    }
+
+    @Test
+    void comprovateNumber6TellFizz(){
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        int num = 6;
+        String representation = fizzBuzz.representationNumbers(num);
+        Assertions.assertEquals("Fizz", representation);
+    }
+
+    @Test
+    void comprovateNumber5TellBuzz(){
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        int num = 5;
+        String representation = fizzBuzz.representationNumbers(num);
+        Assertions.assertEquals("Buzz", representation);
+    }
+
+    @Test
+    void comprovateNumber15TellBuzz(){
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        int num = 15;
+        String representation = fizzBuzz.representationNumbers(num);
+        Assertions.assertEquals("FizzBuzz", representation);
     }
 
 

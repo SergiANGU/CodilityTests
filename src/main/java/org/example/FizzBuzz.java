@@ -15,6 +15,20 @@ public class FizzBuzz {
         return numberList;
     }
 
+    public String representationNumbers(int number){
+        if (number % 3 == 0 && number % 5 == 0){
+            return "FizzBuzz";
+        }
+
+        if (number % 3 == 0){
+            return "Fizz";
+        }
+        if (number % 5 == 0){
+            return "Buzz";
+        }
+        return "";
+    }
+
     public int getNUMBER_OF_ELEMENTS() {
         return NUMBER_OF_ELEMENTS;
     }
