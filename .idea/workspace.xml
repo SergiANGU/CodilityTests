@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f53e18e9-482a-48b8-8983-314262df7ce6" name="Changes" comment="BinaryGap v1">
+    <list default="true" id="f53e18e9-482a-48b8-8983-314262df7ce6" name="Changes" comment="BinaryGap v1.2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/FizzBuzzTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BinaryGap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BinaryGap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/BinaryGapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/BinaryGapTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,39 +51,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BinaryGapTest.globalTest">
-    <configuration name="BinaryGapTest.givedBinaryStringWhenProcesedeturnTheLongestGap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codilityTestes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.BinaryGapTest" />
-      <option name="METHOD_NAME" value="givedBinaryStringWhenProcesedeturnTheLongestGap" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinaryGapTest.givedNumberWhenProcesedReturnTheBinari" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codilityTestes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.BinaryGapTest" />
-      <option name="METHOD_NAME" value="givedNumberWhenProcesedReturnTheBinari" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.FizzBuzzTest.comprovateAllNumbersAreInTheList">
     <configuration name="BinaryGapTest.globalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codilityTestes" />
       <extension name="coverage">
@@ -99,11 +68,77 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FizzBuzzTest.comprovateAllNumbersAreInTheList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codilityTestes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="comprovateAllNumbersAreInTheList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzBuzzTest.comprovateIfNumberOneIsInTheList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codilityTestes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="comprovateIfNumberOneIsInTheList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzBuzzTest.createFizzBuzzClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codilityTestes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="createFizzBuzzClass" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzBuzzTest.generate1_100NumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codilityTestes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="generate1_100NumbersTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FizzBuzzTest.comprovateAllNumbersAreInTheList" />
+        <item itemvalue="JUnit.FizzBuzzTest.comprovateIfNumberOneIsInTheList" />
+        <item itemvalue="JUnit.FizzBuzzTest.generate1_100NumbersTest" />
+        <item itemvalue="JUnit.FizzBuzzTest.createFizzBuzzClass" />
         <item itemvalue="JUnit.BinaryGapTest.globalTest" />
-        <item itemvalue="JUnit.BinaryGapTest.givedBinaryStringWhenProcesedeturnTheLongestGap" />
-        <item itemvalue="JUnit.BinaryGapTest.givedNumberWhenProcesedReturnTheBinari" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663710723304</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="BinaryGap v1.2">
+      <created>1663802058385</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663802058385</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,6 +181,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="BinaryGap v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="BinaryGap v1" />
+    <MESSAGE value="BinaryGap v1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="BinaryGap v1.2" />
   </component>
 </project>

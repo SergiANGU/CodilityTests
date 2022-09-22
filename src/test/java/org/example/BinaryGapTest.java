@@ -33,7 +33,6 @@ class BinaryGapTest {
         int result = solution.solution(number);
         Assertions.assertEquals(2, result);
     }
-    @Test
-    void gived
+
 
 }
