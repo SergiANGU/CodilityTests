@@ -4,7 +4,7 @@ public class BinaryGap {
 
     public int solution(int N) {
         String binariNumber = binariConvertor(N);
-        int longestBinaryGap = calculateGap(binariNumber);
+        int longestBinaryGap = calculateGap2(binariNumber);
 
         return longestBinaryGap;
     }
@@ -15,7 +15,7 @@ public class BinaryGap {
     }
 
     public int calculateGap(String binary){
-        String[] parts = binary.split("1");
+        String[] parts = binary.split("");
 
         if (parts.length < 3){
             return 0;
@@ -41,6 +41,7 @@ public class BinaryGap {
                 count++;
             }else{
                 longest = count;
+                count = 0;
             }
         }
         return longest;

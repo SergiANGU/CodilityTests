@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f53e18e9-482a-48b8-8983-314262df7ce6" name="Changes" comment="BinaryGap v1.2">
+    <list default="true" id="f53e18e9-482a-48b8-8983-314262df7ce6" name="Changes" comment="FizzBuzz Kata">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PrimareFactors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/PrimareFactorsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FizzBuzz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/FizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/FizzBuzzTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BinaryGap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BinaryGap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/BinaryGapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/BinaryGapTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +52,8 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzTest.comprovateNumber15TellBuzz">
-    <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PrimareFactorsTest.TestingIfClassExsist">
+    <configuration name="BinaryGapTest.globalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codilityTestes" />
       <extension name="coverage">
         <pattern>
@@ -60,8 +62,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.FizzBuzzTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="org.example.BinaryGapTest" />
+      <option name="METHOD_NAME" value="globalTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -77,22 +80,6 @@
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.FizzBuzzTest" />
       <option name="METHOD_NAME" value="comprovateNumber15TellBuzz" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FizzBuzzTest.comprovateNumber3TellFizz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codilityTestes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.FizzBuzzTest" />
-      <option name="METHOD_NAME" value="comprovateNumber3TellFizz" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,13 +117,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrimareFactorsTest.TestingIfClassExsist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codilityTestes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PrimareFactorsTest" />
+      <option name="METHOD_NAME" value="TestingIfClassExsist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PrimareFactorsTest.TestingIfClassExsist" />
+        <item itemvalue="JUnit.BinaryGapTest.globalTest" />
         <item itemvalue="JUnit.FizzBuzzTest.comprovateNumber15TellBuzz" />
         <item itemvalue="JUnit.FizzBuzzTest.comprovateNumber5TellBuzz" />
         <item itemvalue="JUnit.FizzBuzzTest.comprovateNumber6TellFizz" />
-        <item itemvalue="JUnit.FizzBuzzTest.comprovateNumber3TellFizz" />
-        <item itemvalue="JUnit.FizzBuzzTest" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663802058385</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="FizzBuzz Kata">
+      <created>1663839358228</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663839358228</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,6 +190,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="BinaryGap v1" />
     <MESSAGE value="BinaryGap v1.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="BinaryGap v1.2" />
+    <MESSAGE value="FizzBuzz Kata" />
+    <option name="LAST_COMMIT_MESSAGE" value="FizzBuzz Kata" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/BinaryGapTest.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
