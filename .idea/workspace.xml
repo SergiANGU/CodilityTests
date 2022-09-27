@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f53e18e9-482a-48b8-8983-314262df7ce6" name="Changes" comment="PrimariFactors">
+    <list default="true" id="f53e18e9-482a-48b8-8983-314262df7ce6" name="Changes" comment="PrimariFactors 2.0">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Wardrobe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/WardrobeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PrimareFactors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PrimareFactors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/PrimareFactorsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/PrimareFactorsTest.java" afterDir="false" />
@@ -50,8 +52,8 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PrimareFactorsTest.givedNineWhenProcesedReturnTwoElementArray">
-    <configuration name="PrimareFactorsTest.TestingIfClassExsist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PrimareFactorsTest.shouldPassNonNullMessageAsMethodParameter (1)">
+    <configuration name="PrimareFactorsTest.gived18WhenProcesedReturnThreeElementArray2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codilityTestes" />
       <extension name="coverage">
         <pattern>
@@ -61,23 +63,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.PrimareFactorsTest" />
-      <option name="METHOD_NAME" value="TestingIfClassExsist" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrimareFactorsTest.givedFiveWhenProcesedReturnTwoElementArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codilityTestes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.PrimareFactorsTest" />
-      <option name="METHOD_NAME" value="givedFiveWhenProcesedReturnTwoElementArray" />
+      <option name="METHOD_NAME" value="gived18WhenProcesedReturnThreeElementArray2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,7 +85,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimareFactorsTest.givedOneWhenProcesedReturnEmptyArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrimareFactorsTest.shouldPassNonNullMessageAsMethodParameter (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codilityTestes" />
       <extension name="coverage">
         <pattern>
@@ -109,13 +95,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.PrimareFactorsTest" />
-      <option name="METHOD_NAME" value="givedOneWhenProcesedReturnEmptyArray" />
+      <option name="METHOD_NAME" value="shouldPassNonNullMessageAsMethodParameter(int,java.util.List)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimareFactorsTest.givedTwoWhenProcesedReturnEmptyArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrimareFactorsTest.shouldPassNonNullMessageAsMethodParameter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codilityTestes" />
       <extension name="coverage">
         <pattern>
@@ -125,7 +111,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.PrimareFactorsTest" />
-      <option name="METHOD_NAME" value="givedTwoWhenProcesedReturnEmptyArray" />
+      <option name="METHOD_NAME" value="shouldPassNonNullMessageAsMethodParameter(int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WardrobeTest.canIGetTheTotalLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codilityTestes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.WardrobeTest" />
+      <option name="METHOD_NAME" value="canIGetTheTotalLength" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PrimareFactorsTest.shouldPassNonNullMessageAsMethodParameter (1)" />
+        <item itemvalue="JUnit.PrimareFactorsTest.shouldPassNonNullMessageAsMethodParameter" />
+        <item itemvalue="JUnit.PrimareFactorsTest.gived18WhenProcesedReturnThreeElementArray2" />
         <item itemvalue="JUnit.PrimareFactorsTest.givedNineWhenProcesedReturnTwoElementArray" />
-        <item itemvalue="JUnit.PrimareFactorsTest.givedFiveWhenProcesedReturnTwoElementArray" />
-        <item itemvalue="JUnit.PrimareFactorsTest.givedTwoWhenProcesedReturnEmptyArray" />
-        <item itemvalue="JUnit.PrimareFactorsTest.givedOneWhenProcesedReturnEmptyArray" />
-        <item itemvalue="JUnit.PrimareFactorsTest.TestingIfClassExsist" />
+        <item itemvalue="JUnit.WardrobeTest.canIGetTheTotalLength" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663843513880</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="PrimariFactors 2.0">
+      <created>1664204528771</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664204528771</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,7 +206,8 @@
     <MESSAGE value="BinaryGap v1.2" />
     <MESSAGE value="FizzBuzz Kata" />
     <MESSAGE value="PrimariFactors" />
-    <option name="LAST_COMMIT_MESSAGE" value="PrimariFactors" />
+    <MESSAGE value="PrimariFactors 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="PrimariFactors 2.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
