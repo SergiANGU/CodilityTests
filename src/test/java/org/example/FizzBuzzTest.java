@@ -2,13 +2,18 @@ package org.example;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
 
 import java.util.List;
+import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class FizzBuzzTest {
 
+    FizzBuzz fizzBuzz = new FizzBuzz();
     @Test
     void createFizzBuzzClass(){
         new FizzBuzz();
@@ -21,12 +26,7 @@ class FizzBuzzTest {
         Assertions.assertEquals(numList.size(), fizzBuzz.getNUMBER_OF_ELEMENTS());
     }
 
-    @Test
-    void comprovateIfNumberOneIsInTheList(){
-        FizzBuzz fizzBuzz = new FizzBuzz();
-        List<Integer> numList = fizzBuzz.generate();
-        Assertions.assertEquals(numList.get(0), "1");
-    }
+
 
     @Test
     void comprovateAllNumbersAreInTheList(){
@@ -38,36 +38,19 @@ class FizzBuzzTest {
         }
     }
 
-    @Test
-    void comprovateNumber3TellFizz(){
-        FizzBuzz fizzBuzz = new FizzBuzz();
-        int num = 3;
-        String representation = fizzBuzz.representationNumbers(num);
-        Assertions.assertEquals("Fizz", representation);
+    @ParameterizedTest
+    @MethodSource("providedIntsAndTheExpectedResult")
+    void shouldPassNonNullMessageAsMethodParameter(int num, String representation) {
+        String solution = fizzBuzz.representationNumbers(num);
+        assertEquals(solution, representation);
     }
 
-    @Test
-    void comprovateNumber6TellFizz(){
-        FizzBuzz fizzBuzz = new FizzBuzz();
-        int num = 6;
-        String representation = fizzBuzz.representationNumbers(num);
-        Assertions.assertEquals("Fizz", representation);
-    }
-
-    @Test
-    void comprovateNumber5TellBuzz(){
-        FizzBuzz fizzBuzz = new FizzBuzz();
-        int num = 5;
-        String representation = fizzBuzz.representationNumbers(num);
-        Assertions.assertEquals("Buzz", representation);
-    }
-
-    @Test
-    void comprovateNumber15TellBuzz(){
-        FizzBuzz fizzBuzz = new FizzBuzz();
-        int num = 15;
-        String representation = fizzBuzz.representationNumbers(num);
-        Assertions.assertEquals("FizzBuzz", representation);
+    private static Stream<Arguments> providedIntsAndTheExpectedResult() {
+        return Stream.of(
+                Arguments.of(6, "Fizz"),
+                Arguments.of(5, "Buzz"),
+                Arguments.of(15, "FizzBuzz")
+        );
     }
 
 

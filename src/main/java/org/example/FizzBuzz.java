@@ -29,6 +29,7 @@ public class FizzBuzz {
         return "";
     }
 
+
     public int getNUMBER_OF_ELEMENTS() {
         return NUMBER_OF_ELEMENTS;
     }

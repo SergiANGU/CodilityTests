@@ -15,41 +15,18 @@ import static org.junit.jupiter.api.Assertions.*;
 class PrimareFactorsTest {
     PrimareFactors solution = new PrimareFactors();
 
-    @Test
-    void TestingIfClassExsist(){
-        new PrimareFactors();
-    }
-
-    @Test
-    void givedOneWhenProcesedReturnEmptyArray(){
-        PrimareFactors solution = new PrimareFactors();
-        int numberOne = 1;
-        List<Integer> primareFactors = solution.descompose(numberOne);
-        assertEquals(0, primareFactors.size());
-    }
-
-    @Test
-    void givedTwoWhenProcesedReturnOneElementArry(){
-        PrimareFactors solution = new PrimareFactors();
-        int number = 2;
-        List<Integer> primareFactors = solution.descompose(number);
-        assertEquals(1, primareFactors.size());
-    }
-
-    @Test
-    void gived18WhenProcesedReturnThreeElementArray(){
-        PrimareFactors solution = new PrimareFactors();
-        int number = 18;
-        List<Integer> primareFactors = solution.descompose(number);
-        assertEquals(3, primareFactors.size());
-    }
-
     @ParameterizedTest
     @MethodSource("providedIntsAndTheExpectedResult")
     void shouldPassNonNullMessageAsMethodParameter(int number, List<Integer> expected) {
         List<Integer> primareFactors = solution.descompose(number);
         assertEquals(expected, primareFactors);
     }
+
+    @Test
+    void TestingTheDivisorAndNumberParameters(){
+        solution.descompose(11);
+    }
+
 
     private static Stream<Arguments> providedIntsAndTheExpectedResult() {
         return Stream.of(

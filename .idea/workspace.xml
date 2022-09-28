@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f53e18e9-482a-48b8-8983-314262df7ce6" name="Changes" comment="PrimariFactors 2.0">
+    <list default="true" id="f53e18e9-482a-48b8-8983-314262df7ce6" name="Changes" comment="PrimariFactors 3.0(ParametizedTest)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ManhattanKata/Point.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Wardrobe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ManhattanKata/PointTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/org/example/WardrobeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FizzBuzz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PrimareFactors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PrimareFactors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/FizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/FizzBuzzTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/PrimareFactorsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/PrimareFactorsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,8 +56,8 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PrimareFactorsTest.shouldPassNonNullMessageAsMethodParameter (1)">
-    <configuration name="PrimareFactorsTest.gived18WhenProcesedReturnThreeElementArray2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PointTest.createPointClass">
+    <configuration name="FizzBuzzTest.shouldPassNonNullMessageAsMethodParameter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codilityTestes" />
       <extension name="coverage">
         <pattern>
@@ -62,14 +66,46 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.PrimareFactorsTest" />
-      <option name="METHOD_NAME" value="gived18WhenProcesedReturnThreeElementArray2" />
+      <option name="MAIN_CLASS_NAME" value="org.example.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="shouldPassNonNullMessageAsMethodParameter(int,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimareFactorsTest.givedNineWhenProcesedReturnTwoElementArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PointTest.createPointClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codilityTestes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.ManhattanKata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.ManhattanKata" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ManhattanKata.PointTest" />
+      <option name="METHOD_NAME" value="createPointClass" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PointTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codilityTestes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.ManhattanKata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.ManhattanKata" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ManhattanKata.PointTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimareFactorsTest.TestingTheDivisorAndNumberParameters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codilityTestes" />
       <extension name="coverage">
         <pattern>
@@ -79,7 +115,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.PrimareFactorsTest" />
-      <option name="METHOD_NAME" value="givedNineWhenProcesedReturnTwoElementArray" />
+      <option name="METHOD_NAME" value="TestingTheDivisorAndNumberParameters" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,45 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimareFactorsTest.shouldPassNonNullMessageAsMethodParameter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codilityTestes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.PrimareFactorsTest" />
-      <option name="METHOD_NAME" value="shouldPassNonNullMessageAsMethodParameter(int)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WardrobeTest.canIGetTheTotalLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codilityTestes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.WardrobeTest" />
-      <option name="METHOD_NAME" value="canIGetTheTotalLength" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PointTest.createPointClass" />
+        <item itemvalue="JUnit.PointTest.test1" />
+        <item itemvalue="JUnit.FizzBuzzTest.shouldPassNonNullMessageAsMethodParameter" />
+        <item itemvalue="JUnit.PrimareFactorsTest.TestingTheDivisorAndNumberParameters" />
         <item itemvalue="JUnit.PrimareFactorsTest.shouldPassNonNullMessageAsMethodParameter (1)" />
-        <item itemvalue="JUnit.PrimareFactorsTest.shouldPassNonNullMessageAsMethodParameter" />
-        <item itemvalue="JUnit.PrimareFactorsTest.gived18WhenProcesedReturnThreeElementArray2" />
-        <item itemvalue="JUnit.PrimareFactorsTest.givedNineWhenProcesedReturnTwoElementArray" />
-        <item itemvalue="JUnit.WardrobeTest.canIGetTheTotalLength" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664204528771</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="PrimariFactors 3.0(ParametizedTest)">
+      <created>1664272254956</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664272254956</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,7 +218,8 @@
     <MESSAGE value="FizzBuzz Kata" />
     <MESSAGE value="PrimariFactors" />
     <MESSAGE value="PrimariFactors 2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="PrimariFactors 2.0" />
+    <MESSAGE value="PrimariFactors 3.0(ParametizedTest)" />
+    <option name="LAST_COMMIT_MESSAGE" value="PrimariFactors 3.0(ParametizedTest)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
