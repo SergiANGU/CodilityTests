@@ -1,5 +1,6 @@
-package org.example;
+package org.example.FizzBuzzTestKata;
 
+import org.example.FizzBuzzKata.FizzBuzz;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;

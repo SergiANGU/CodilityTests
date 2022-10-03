@@ -1,9 +1,8 @@
-package org.example;
+package org.example.BinariGApTestKata;
 
+import org.example.BinaryGapKata.BinaryGap;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class BinaryGapTest {
 
