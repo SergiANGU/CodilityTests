@@ -66,6 +66,26 @@ class WolfKataTest {
         Assertions.assertFalse(Collections.disjoint(sheeps, animalsShuffled));
     }
 
+    @Test
+    public void givedAListWhenProcesedReturnTheWolfPosition(){
+        List<String> animals = List.of("Sheep", "Sheep", "Sheep", "Sheep", "Wolf", "Sheep", "Sheep");
+        int postition = wolf.wolfPosition(animals);
+        Assertions.assertEquals(postition, 4);
+    }
+
+    @Test
+    public void givedAListWhenProcesedReturnTheWolfInFinalPosition(){
+        List<String> animals = List.of("Sheep", "Sheep", "Sheep", "Sheep","Sheep", "Wolf");
+        int postition = wolf.wolfPosition(animals);
+        Assertions.assertEquals(postition, 5);
+    }
+
+    @Test void globalTest(){
+        wolf.inicia();
+    }
+
+
+
 
 
 }
