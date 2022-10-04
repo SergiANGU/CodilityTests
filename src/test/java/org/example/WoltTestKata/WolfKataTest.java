@@ -11,79 +11,30 @@ import java.util.List;
 
 class WolfKataTest {
 
-    @Test
-    public void checkIfClassExist(){
-        new WolfKata();
-    }
 
-    WolfKata wolf = new WolfKata();
 
-    @Test
-    public void givedSheepThenProcesedReturnOne(){
+    private WolfKata wolf = new WolfKata();
 
-        List<String> sheeps = wolf.createSheeps(1);
-        Assertions.assertEquals(1,sheeps.size());
-
-    }
-
-    @Test
-    public void givedAnIntervalReturnOneRandomNumber(){
-        int min =1, max = 10;
-        int randomNumber = wolf.randomNumberGenerator(min, max);
-        Assertions.assertTrue(max >= randomNumber);
-        Assertions.assertTrue(min  <= randomNumber);
-    }
-
-    @Test
-    public void givedRandomNumberThenGenerateListOfRandomNumberOfSheeps(){
-        int min =1, max = 10;
-        int randomNumber = wolf.randomNumberGenerator(min, max);
-        List<String> sheeps = wolf.createSheeps(randomNumber);
-        Assertions.assertEquals(randomNumber,sheeps.size());
-    }
-
-    @Test
-    public void givedASheepListAddAWolfOnLastPosition(){
-        List<String> sheeps = new ArrayList<>();
-        sheeps.add("Sheep");
-        sheeps.add("Sheep");
-        sheeps.add("Sheep");
-        sheeps.add("Sheep");
-        List<String> animals = wolf.addWolf(sheeps);
-        Assertions.assertEquals("Wolf", animals.get(animals.size()-1));
-    }
-
-    @Test
-    public void givedAListWhenProcesedThenShuffled(){
-        List<String> sheeps = new ArrayList<>();
-        sheeps.add("Sheep");
-        sheeps.add("Sheep");
-        sheeps.add("Sheep");
-        sheeps.add("Sheep");
-        sheeps.add("Wolf");
-        List<String> animalsShuffled = wolf.shuffleList(sheeps);
-
-        Assertions.assertFalse(Collections.disjoint(sheeps, animalsShuffled));
-    }
 
     @Test
     public void givedAListWhenProcesedReturnTheWolfPosition(){
         List<String> animals = List.of("Sheep", "Sheep", "Sheep", "Sheep", "Wolf", "Sheep", "Sheep");
-        int postition = wolf.wolfPosition(animals);
-        Assertions.assertEquals(postition, 4);
-    }
+        String msg = wolf.finalMensage(4,animals);
+        Assertions.assertTrue(msg.contains("Oi! Sheep number "+ (3)  + " ! You are about to be eaten by a wolf!"));    }
 
     @Test
     public void givedAListWhenProcesedReturnTheWolfInFinalPosition(){
         List<String> animals = List.of("Sheep", "Sheep", "Sheep", "Sheep","Sheep", "Wolf");
-        int postition = wolf.wolfPosition(animals);
-        Assertions.assertEquals(postition, 5);
+        String msg = wolf.finalMensage(6, animals);
+        Assertions.assertTrue(msg.contains("Pls go away and stop eating my sheep"));
     }
 
-    @Test void globalTest(){
-        wolf.inicia();
+    @Test
+    public void givedAListWhenProcesedReturnTheWolfInFirst(){
+        List<String> animals = List.of("Wolf", "Sheep", "Sheep", "Sheep","Sheep", "Sheep");
+        String msg = wolf.finalMensage(0, animals);
+        Assertions.assertTrue(msg.contains("No Danger"));
     }
-
 
 
 
