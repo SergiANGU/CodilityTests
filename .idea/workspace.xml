@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f53e18e9-482a-48b8-8983-314262df7ce6" name="Changes" comment="wolf">
+    <list default="true" id="f53e18e9-482a-48b8-8983-314262df7ce6" name="Changes" comment="Wolf Finished">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DontGiveMeFiveKata/DontGiveMeFiveKata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DontGiveMeFiveKata/DontGiveMeFiveKataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WolfKata/WolfKata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WolfKata/WolfKata.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/WoltTestKata/WolfKataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/WoltTestKata/WolfKataTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -48,10 +48,59 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.DontGiveMeFiveKata" />
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WolfKataTest.globalTest">
+  <component name="RunManager" selected="JUnit.DontGiveMeFiveKataTest.givedAListOfNumbersReturnTheListExceptNumberFive">
+    <configuration name="DontGiveMeFiveKataTest.givedAListOfNumbersReturnTheListExceptNumberFive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codilityTestes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.DontGiveMeFiveKata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.DontGiveMeFiveKata" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DontGiveMeFiveKata.DontGiveMeFiveKataTest" />
+      <option name="METHOD_NAME" value="givedAListOfNumbersReturnTheListExceptNumberFive" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DontGiveMeFiveKataTest.givedTwoNumberWhenProcesedReturnTheDiference" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codilityTestes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.DontGiveMeFiveKata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.DontGiveMeFiveKata" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DontGiveMeFiveKata.DontGiveMeFiveKataTest" />
+      <option name="METHOD_NAME" value="givedTwoNumberWhenProcesedReturnTheDiference" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DontGiveMeFiveKataTest.globalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codilityTestes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.DontGiveMeFiveKata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.DontGiveMeFiveKata" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DontGiveMeFiveKata.DontGiveMeFiveKataTest" />
+      <option name="METHOD_NAME" value="globalTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WolfKataTest.givedAListWhenProcesedReturnTheWolfInFinalPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codilityTestes" />
       <extension name="coverage">
@@ -63,54 +112,6 @@
       <option name="PACKAGE_NAME" value="org.example.WoltTestKata" />
       <option name="MAIN_CLASS_NAME" value="org.example.WoltTestKata.WolfKataTest" />
       <option name="METHOD_NAME" value="givedAListWhenProcesedReturnTheWolfInFinalPosition" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WolfKataTest.givedAListWhenProcesedReturnTheWolfPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codilityTestes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.WoltTestKata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.WoltTestKata" />
-      <option name="MAIN_CLASS_NAME" value="org.example.WoltTestKata.WolfKataTest" />
-      <option name="METHOD_NAME" value="givedAListWhenProcesedReturnTheWolfPosition" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WolfKataTest.givedAListWhenProcesedThenShuffled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codilityTestes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.WoltTestKata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.WoltTestKata" />
-      <option name="MAIN_CLASS_NAME" value="org.example.WoltTestKata.WolfKataTest" />
-      <option name="METHOD_NAME" value="givedAListWhenProcesedThenShuffled" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WolfKataTest.givedASheepListAddAWolfOnLastPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codilityTestes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.WoltTestKata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.WoltTestKata" />
-      <option name="MAIN_CLASS_NAME" value="org.example.WoltTestKata.WolfKataTest" />
-      <option name="METHOD_NAME" value="givedASheepListAddAWolfOnLastPosition" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DontGiveMeFiveKataTest.givedAListOfNumbersReturnTheListExceptNumberFive" />
+        <item itemvalue="JUnit.DontGiveMeFiveKataTest.globalTest" />
+        <item itemvalue="JUnit.DontGiveMeFiveKataTest.givedTwoNumberWhenProcesedReturnTheDiference" />
         <item itemvalue="JUnit.WolfKataTest.globalTest" />
         <item itemvalue="JUnit.WolfKataTest.givedAListWhenProcesedReturnTheWolfInFinalPosition" />
-        <item itemvalue="JUnit.WolfKataTest.givedAListWhenProcesedReturnTheWolfPosition" />
-        <item itemvalue="JUnit.WolfKataTest.givedAListWhenProcesedThenShuffled" />
-        <item itemvalue="JUnit.WolfKataTest.givedASheepListAddAWolfOnLastPosition" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664829973588</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Wolf Finished">
+      <created>1664869679121</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664869679121</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,7 +238,8 @@
     <MESSAGE value="PrimariFactors 3.0(ParametizedTest)" />
     <MESSAGE value="ManhattanPointsKata" />
     <MESSAGE value="wolf" />
-    <option name="LAST_COMMIT_MESSAGE" value="wolf" />
+    <MESSAGE value="Wolf Finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wolf Finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
